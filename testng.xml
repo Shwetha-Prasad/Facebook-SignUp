@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Facebook Sign Up Test Suite">
+
+	 <listeners>
+		<listener class-name="com.planit.qa.ExtentReportListner.ExtentReporterNG"/>
+	</listeners>
+
+
+	<test name="Facebook Account Creation Test Cases">
+		<classes>
+			<class name="com.planit.qa.testcases.FacebookAccountSignUpTest"></class>
+		</classes>
+	</test>
+</suite>
